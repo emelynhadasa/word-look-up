@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Martian Mono', monospace;
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh; 
+  background: linear-gradient( 174.2deg,  white 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+  flex-grow: 1; 
+}
+
+footer {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  padding: 20px;
+  position: sticky;
+  bottom: 0; 
+  letter-spacing: 1.3px;
+  background: linear-gradient( 174.2deg,  white 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+word-list {
+  display: block;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+.notification {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffcc00; 
+  color: #333; 
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
